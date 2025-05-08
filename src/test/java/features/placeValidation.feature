@@ -15,7 +15,7 @@ Scenario Outline: Verify if Place is being added successfully using AddPlaceAPI
  #   |  BBHouse| Spanish |  Sea cross center  |
 
 
-@AddPlace
+@UpdatePlace
 Scenario Outline: Verify if place is being updated successfully using UpdatePlaceAPI
   Given Update Place Payload with "<address>"
   When user calls "UpdatePlaceAPI" with "PUT" http request

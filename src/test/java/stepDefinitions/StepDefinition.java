@@ -26,7 +26,7 @@ public class StepDefinition extends Utils {
     Response response;
     TestDataBuild testDataBuild = new TestDataBuild();
     static String placeid;
-    static String address;
+    //static String address;
     @Given("Add Place Payload with {string} and {string} and {string}")
     public void add_place_payload(String name, String language, String address) throws IOException {
         AddPlace p = testDataBuild.AddPlacePayload(name,language,address);
